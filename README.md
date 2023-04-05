@@ -26,3 +26,26 @@ The download for apple m1 is linked directly [here](https://repo.anaconda.com/mi
 Or choose from the list of downloads [here](https://docs.conda.io/en/latest/miniconda.html)
 
 *NOTE: Please Please Please check that you install Miniconda macOS Apple M1 64-bit pkg*
+
+Now verify that the you installed the correct version by running the following in the terminal
+```
+python
+>>>import platform
+>>>platform.platform()
+```
+The output should be `macOS-xxx-arm64-64bit` where `xxx` is your OS version, if you do NOT see this, refer back to previous steps
+
+## Step 3 Install Xcode 
+`xcode-select --install`
+If you already have this installed, great!
+
+## Step 4 Install Jupyter and Create Environment
+`conda install -y jupyter`
+
+Now, deactivate the base environment
+`conda deactivate`
+
+
+
+
+
