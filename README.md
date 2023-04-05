@@ -8,7 +8,7 @@ Make sure you are updated to MacOS version 12.0+
 
 ## Step 1 (Optional) Remove Anaconda
 This step is optional but recommended as some problems may stem from initial python install  
-While `conda install anaconda-clean` can be run in any conda env, I recommened inputing the following as it will speed this process up greatly and avoid any errors
+While `conda install anaconda-clean` can be run in any conda env, I recommend inputing the following commands as it will speed this process up greatly and avoid any errors
 ```
 conda create -n cleaner anaconda-clean
 conda activate cleaner
