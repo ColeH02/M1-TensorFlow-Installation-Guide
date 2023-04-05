@@ -48,4 +48,4 @@ Now, deactivate the base environment
 
 
 
-
+`python -m pip install tensorflow-macos==2.9.0 tensorflow-metal==0.6.0 --force-reinstall`
